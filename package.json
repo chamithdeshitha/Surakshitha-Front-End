@@ -1,0 +1,20 @@
+{
+  "name": "surakshitha-front-end",
+  "version": "1.0.0",
+  "description": "Medication Incident Reporting System",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chamithdeshitha/Surakshitha-Front-End.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chamithdeshitha/Surakshitha-Front-End/issues"
+  },
+  "homepage": "https://github.com/chamithdeshitha/Surakshitha-Front-End#readme"
+}
