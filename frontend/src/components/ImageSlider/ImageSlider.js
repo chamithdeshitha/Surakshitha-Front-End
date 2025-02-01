@@ -1,5 +1,5 @@
 import React from "react";
-import ImageSliderElement from "./ImageSliderElement";
+import ImageSliderElement from "../ImageSlider/ImageSliderElement.js";
 const ImageSlider = () => {
   const slides = [
     {url: "http://localhost:3000/image-1.jpg", title: "Slide 1"},

@@ -3,8 +3,8 @@ import "./App.css";
 import {Navbar} from "./components/NavBar/Navbar";
 //import ReactDOM from "react-dom/client";
 import {BrowserRouter as Router} from "react-router-dom";
-import {TopBar} from "./components/TopBar/TopBarElement";
-import ImageSlider from "./components/ImageSlider/ImageSlider";
+import {TopBar} from "./components/TopBar/TopBar";
+import ImageSlider from "./components/ImageSlider/ImageSlider.js";
 // const root = ReactDOM.createRoot(document.getElementById("root")); // Create a root
 // root.render(
 //   <React.StrictMode>
