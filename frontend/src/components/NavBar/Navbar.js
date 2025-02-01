@@ -1,7 +1,8 @@
 import React from "react";
 import {Nav, NavLink, NavMenu} from "./NavBarElement";
 
-export const Navbar = () => {
+const Navbar = () => {
+  // Removed export here
   return (
     <Nav>
       <NavMenu>
@@ -21,3 +22,5 @@ export const Navbar = () => {
     </Nav>
   );
 };
+
+export default Navbar; // Export as default

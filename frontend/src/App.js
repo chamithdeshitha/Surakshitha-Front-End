@@ -1,31 +1,24 @@
 import React from "react";
-import "./App.css";
-import {Navbar} from "./components/NavBar/Navbar";
-//import ReactDOM from "react-dom/client";
-import {BrowserRouter as Router} from "react-router-dom";
-import {TopBar} from "./components/TopBar/TopBar";
-import ImageSlider from "./components/ImageSlider/ImageSlider.js";
-// const root = ReactDOM.createRoot(document.getElementById("root")); // Create a root
-// root.render(
-//   <React.StrictMode>
-//     <App />
-//   </React.StrictMode>
-// );
-console.log(Navbar);
+import {BrowserRouter as Router, Routes, Route} from "react-router-dom";
+import Dashboard from "./pages/Dashboard.js";
+//import News from "./pages/News"; // Create News.js in pages directory
+//import Events from "./pages/Events"; // Create Events.js in pages directory
+//import About from "./pages/About"; // Create About.js in pages directory
+//import Home from "./pages/Home"; // Create Home.js in pages directory
+
 function App() {
   return (
-    <>
-      {/* This is a Frament Check if it will raise any error later */}
-      <TopBar></TopBar>
-      <Router>
-        <Navbar />
-      </Router>
-      <ImageSlider />
-    </>
-
-    // {/* <header>
-    //   <NavigationBar></NavigationBar>
-    // </header> */}
+    <Router>
+      <Dashboard></Dashboard>
+      <Routes>
+        {/* <Route path="/" element={<Home />} /> {/* Route for Home */}
+        {/* <Route path="/news" element={<News />} /> {/* Route for News */}
+        {/*<Route path="/events" element={<Events />} /> Route for Events */}
+        {/* <Route path="/about" element={<About />} /> */}
+        <Route path="/dashboard" element={<Dashboard />} />{" "}
+        {/* Route for Dashboard */}
+      </Routes>
+    </Router>
   );
 }
 

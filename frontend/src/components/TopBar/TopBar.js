@@ -10,10 +10,11 @@
 //     </Nav>
 //   );
 // };
+//TopBar.js
 import React from "react";
 import {Nav, Logo} from "./TopBarElement";
-
-export const TopBar = () => {
+const TopBar = () => {
+  // Removed export here
   return (
     <Nav>
       <Logo href="/">
@@ -22,3 +23,5 @@ export const TopBar = () => {
     </Nav>
   );
 };
+
+export default TopBar; // Export as default
